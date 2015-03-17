@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "heroku": {
+    "host": "ds043338.mongolab.com",
+    "port": 43338,
+    "url": "mongodb://henryalejo:qwertyuiop@ds043338.mongolab.com:43338/heroku_app34983993",
+    "database": "heroku_app34983993",
+    "password": "qwertyuiop",
+    "name": "heroku",
+    "user": "henryalejo",
+    "connector": "mongodb"
   }
 }

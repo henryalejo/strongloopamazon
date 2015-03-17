@@ -1,0 +1,30 @@
+{
+  "name": "level",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "levelnumber": {
+      "type": "number"
+    },
+    "levelarray": {
+      "type": "array"
+    },
+    "player": {
+      "type": "object"
+    },
+    "tower": {
+      "type": "object"
+    },
+    "enemy": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
