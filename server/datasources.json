@@ -12,5 +12,15 @@
     "name": "heroku",
     "user": "henryalejo",
     "connector": "mongodb"
+  },
+  "amazonlocalmongo": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://henryalejo:qwertyuiop@localhost:27017/mydb",
+    "database": "mydb",
+    "password": "qwertyuiop",
+    "name": "amazonlocalmongo",
+    "user": "henryalejo",
+    "connector": "mongodb"
   }
 }
